@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG -Wl,-Bsymbolic -uMAPSPckInit -uMAPSGetModulesDefStruct -shared -Wl,-soname,PointCloud.pck -o PointCloud.pck CMakeFiles/PointCloud.dir/src/maps_PcTrans_noGRB.cpp.o CMakeFiles/PointCloud.dir/src/maps_naiveMerge_noRGB.cpp.o /opt/rtmaps/sdk/ubuntu1604_x86_64/lib/librtmaps_pck.a -ldl -lpthread -lrt -lX11 
